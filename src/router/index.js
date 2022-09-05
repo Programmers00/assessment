@@ -5,6 +5,16 @@ const routes = [
         path: "/",
         name: "Main",
         component: () => import('@/views/main/Index')
+    },
+    {
+        path: "/test1",
+        name: "Test1",
+        component: () => import('@/views/test1/Index')
+    },
+    {
+        path: "/test2",
+        name: "Test2",
+        component: () => import('@/views/test2/Index')
     }
 ]
 

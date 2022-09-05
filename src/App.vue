@@ -1,13 +1,13 @@
 <template>
-  <Main/>
+  <AppMain/>
 </template>
 
 <script>
-import Main from '@/views/main/Index.vue'
+import AppMain from './layout/AppMain.vue'
 export default {
   name: 'App',
-  components:{
-    Main
+  components: {
+    AppMain
   }
 }
 </script>
